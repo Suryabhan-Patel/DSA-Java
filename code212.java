@@ -14,9 +14,10 @@ public class code212 {
              high=mid-1;
             }
         }
-    return Minimum;}
+        if(Minimum==-1) return -1;
+    return arr[Minimum];}
     public static void main(String[] args) {
-        System.out.println(Minimum(new int[]{4,5,6,7,1,2,3}));
+        System.out.println(Minimum(new int[]{4,5,6,7,0,1,2,3}));
     }
     
 }
