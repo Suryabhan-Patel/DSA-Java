@@ -12,7 +12,7 @@ public class code227{
       for(int i=0; i<R ;i++){
         for(int j=0; j<C;j++){
             res[i][j]= sc.nextInt();
- }}
+ }System.out.println();}
 
       for(int k=0;k<R;k++){
         countone=0;
